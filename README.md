@@ -14,9 +14,8 @@ Summary: Matrix eQTL is designed for fast eQTL analysis on large datasets. Matri
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-matrixeqtl-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-matrixeqtl-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-matrixeqtl-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-matrixeqtl-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-matrixeqtl-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-matrixeqtl-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-matrixeqtl-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-matrixeqtl-feedstock)
 
 Current release info
 ====================
