@@ -1,4 +1,4 @@
-{% set version = '2.2' %}
+{% set version = "2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MatrixEQTL_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MatrixEQTL/MatrixEQTL_{{ version }}.tar.gz
-  sha256: 6a6df3ef019c7a7ee228c0e1801d300b8c9c098e5cddda441ee848557a970588
+  sha256: 881acaba080a836e71302f06b11cbc78c6a5fdbc89d6c8979b84c81657812683
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
